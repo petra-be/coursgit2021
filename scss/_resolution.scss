@@ -1,0 +1,64 @@
+body {
+
+    background-color: pink;
+}
+
+#resolution {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 130, 151);
+    text-align: center;
+}
+#resolution:after {
+    content: "XS > 576";
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+#resolution {
+    background-color: rgb(247, 73, 102);
+}
+#resolution:after {
+    content: "XS > 576";
+}}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+#resolution {
+    background-color: rgb(247, 73, 233);
+}
+#resolution:after {
+    content: "XS > 576";
+}}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+#resolution {
+    background-color: rgb(192, 73, 247);
+}
+#resolution:after {
+    content: "XS > 576";
+}}
+
+
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+#resolution {
+    background-color: rgb(98, 0, 255);
+}
+#resolution:after {
+    content: "XS > 576";
+}}
+
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}

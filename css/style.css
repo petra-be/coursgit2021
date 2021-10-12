@@ -1,0 +1,54 @@
+body {
+  background-color: pink;
+}
+
+#resolution {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ff8297;
+  text-align: center;
+}
+
+#resolution:after {
+  content: "XS > 576";
+}
+
+@media (min-width: 576px) {
+  #resolution {
+    background-color: #f74966;
+  }
+
+  #resolution:after {
+    content: "XS > 576";
+  }
+}
+@media (min-width: 768px) {
+  #resolution {
+    background-color: #f749e9;
+  }
+
+  #resolution:after {
+    content: "XS > 576";
+  }
+}
+@media (min-width: 992px) {
+  #resolution {
+    background-color: #c049f7;
+  }
+
+  #resolution:after {
+    content: "XS > 576";
+  }
+}
+@media (min-width: 1200px) {
+  #resolution {
+    background-color: #6200ff;
+  }
+
+  #resolution:after {
+    content: "XS > 576";
+  }
+}
